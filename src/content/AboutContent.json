@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Fast, Reliable & Secure Freight Solutions",
+  "text": "We understand the importance of speed and precision in logistics. With D&S Cargo, you get fast and responsive services designed to meet your unique shipping needs.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Choose Us?",
+      "content": "Efficiency at Every Step: From route planning to delivery, we optimize for speed.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Why Our Technology?",
+      "content": "Optimized Routes: Smart algorithms ensure faster, cost-effective deliveries.",
       "icon": "notes.svg"
     }
   ]

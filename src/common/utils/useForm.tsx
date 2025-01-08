@@ -1,15 +1,17 @@
-import { useState } from "react";
+import { type ChangeEvent, useState } from 'react'
 import { notification } from "antd";
 
 interface IValues {
   name: string;
   email: string;
+  phone: string;
   message: string;
 }
 
 const initialValues: IValues = {
   name: "",
   email: "",
+  phone: "",
   message: "",
 };
 
@@ -22,13 +24,13 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
     errors: { ...initialValues },
   });
 
-  const handleSubmit = async (event: React.ChangeEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     const values = formState.values;
     const errors = validate(values);
     setFormState((prevState) => ({ ...prevState, errors }));
 
-    const url = ""; // Fill in your API URL here
+    const url = "https://formspree.io/f/mlddoqzz"; // Fill in your API URL here
 
     try {
       if (Object.values(errors).every((error) => error === "")) {
@@ -68,7 +70,7 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
   };
 
   const handleChange = (
-    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     event.persist();
     const { name, value } = event.target;

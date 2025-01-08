@@ -1,13 +1,14 @@
-import { TFunction } from "react-i18next";
+import type { ChangeEvent, ReactNode } from 'react'
+
 export interface ContainerProps {
   border?: boolean;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export interface ButtonProps {
   color?: string;
   name?: string;
-  children: React.ReactNode;
+  children: ReactNode;
   onClick?: () => void;
 }
 
@@ -20,17 +21,17 @@ export interface SvgIconProps {
 export interface InputProps {
   name: string;
   placeholder: string;
-  t: TFunction;
   type?: string;
   value?: string;
   onChange: (
     event:
-      | React.ChangeEvent<HTMLInputElement>
-      | React.ChangeEvent<HTMLTextAreaElement>
+      | ChangeEvent<HTMLInputElement>
+      | ChangeEvent<HTMLTextAreaElement>
   ) => void;
 }
 export interface validateProps {
   name: string;
   message: string;
   email: string;
+  phone: string;
 }

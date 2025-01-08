@@ -53,7 +53,6 @@ export const Large = styled(Link)`
   font-size: 16px;
   color: #000;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-transform: capitalize;
   line-height: 24px;
   display: block;
@@ -91,7 +90,6 @@ export const FooterContainer = styled("div")`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
@@ -124,47 +122,4 @@ export const FooterContainer = styled("div")`
       fill: rgb(255, 130, 92);
     }
   }
-`;
-
-export const Language = styled("h4")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #18216d;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-  }
-`;
-
-export const Label = styled("label")`
-  font-size: 22px;
-  text-transform: capitalize;
-  color: #18216d;
-  display: block;
-  margin-bottom: 2rem;
-  font-family: "Motiva Sans Bold", serif;
-
-  @media screen and (max-width: 414px) {
-    padding: 1.5rem 0;
-    margin-bottom: 1rem;
-  }
-`;
-
-export const LanguageSwitch = styled("div")`
-  cursor: pointer;
-  transition: all 0.1s ease-in-out;
-
-  &:hover,
-  &:active,
-  &:focus {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-`;
-
-export const LanguageSwitchContainer = styled("div")`
-  display: flex;
-  justify-content: space-between;
-  width: 85px;
 `;
