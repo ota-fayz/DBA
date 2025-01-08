@@ -93,10 +93,6 @@ Begin by cloning this repository to establish your own local copy. This process 
 
 [whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
 
-## Usage
-
-Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
-
 ## License
 
 Licensed under the MIT license.
