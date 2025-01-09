@@ -47,7 +47,7 @@ const Footer = () => {
 						<Col lg={10} md={10} sm={12} xs={12}>
 							<Empty />
 							<Title>Address</Title>
-							<a target="_blank" href={CONTACTS.addressLink}>721 SEYMOUR ST MONROE, NC 28110</a>
+							<a target="_blank" rel="noreferrer" href={CONTACTS.addressLink}>721 SEYMOUR ST MONROE, NC 28110</a>
 						</Col>
 						<Col lg={10} md={10} sm={12} xs={12}>
 							<Empty />
@@ -79,7 +79,7 @@ const Footer = () => {
 							<a
 								href="https://t.me/ota_fayz"
 								target="_blank"
-								rel="noopener"
+								rel="noreferrer"
 							>
 								Ota Fayz
 							</a>
