@@ -79,7 +79,7 @@ const Footer = () => {
 							<a
 								href="https://t.me/ota_fayz"
 								target="_blank"
-								rel="noreferrer"
+								rel="noopener"
 							>
 								Ota Fayz
 							</a>
