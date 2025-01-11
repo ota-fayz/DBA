@@ -75,7 +75,7 @@ const Footer = () => {
 							</LogoContainer>
 						</NavLink>
 						<FooterContainer>
-							Copyright ©{new Date().getFullYear()} All rights reserved |
+							Copyright ©{new Date().getFullYear()} All rights reserved |&nbsp;
 							<a href="https://t.me/ota_fayz" target="_blank" rel="noreferrer">
 								This website is made by Ota Fayz
 							</a>

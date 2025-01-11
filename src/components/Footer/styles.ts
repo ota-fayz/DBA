@@ -105,7 +105,7 @@ export const FooterContainer = styled("div")`
   }
 
   @media screen and (max-width: 769px) {
-      max-width: 250px;
-      flex-wrap: wrap; 
+    max-width: 250px;
+    flex-wrap: wrap; 
   }
 `;
