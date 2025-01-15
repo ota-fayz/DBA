@@ -54,6 +54,7 @@ const Home = () => {
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
+        disclaimer={ContactContent.disclaimer}
         id="contact"
       />
     </Container>

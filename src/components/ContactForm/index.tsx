@@ -9,7 +9,7 @@ import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
 
-const Contact = ({ title, content, id }: ContactProps) => {
+const Contact = ({ title, content, id, disclaimer }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit } = useForm(validate);
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
@@ -66,6 +66,9 @@ const Contact = ({ title, content, id }: ContactProps) => {
                   onChange={handleChange}
                 />
                 <ValidationType type="message" />
+              </Col>
+              <Col span={24} style={{ fontSize: "12px", color: "#555" }}>
+                <strong>Disclaimer:</strong>  {disclaimer}
               </Col>
               <ButtonContainer>
                 <Button name="submit">Submit</Button>
