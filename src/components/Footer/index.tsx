@@ -15,7 +15,7 @@ import {
 } from './styles'
 
 const CONTACTS = {
-	addressLink: 'https://www.google.it/maps/place/721+Seymour+St,+Monroe,+NC+28110,+USA/@34.397756,-81.4498253,5.61z/data=!4m6!3m5!1s0x885430c18d54f7dd:0x4aeccb9a35ce0468!8m2!3d34.9962412!4d-80.5646686!16s%2Fg%2F11c2djfcc9?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D'
+	addressLink: 'https://www.google.it/maps/place/9354+Bay+Colony+Dr,+Des+Plaines,+IL+60016,+%D0%A1%D0%A8%D0%90/@42.0482039,-87.8675998,17z/data=!3m1!4b1!4m6!3m5!1s0x880fb7effeca0f21:0x2a8b2857c48e5869!8m2!3d42.0482039!4d-87.8650249!16s%2Fg%2F11t7nq8460?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D'
 }
 
 const Footer = () => {
@@ -47,7 +47,7 @@ const Footer = () => {
 						<Col lg={10} md={10} sm={12} xs={12}>
 							<Empty />
 							<Title>Address</Title>
-							<a target="_blank" rel="noreferrer" href={CONTACTS.addressLink}>721 SEYMOUR ST MONROE, NC 28110</a>
+							<a target="_blank" rel="noreferrer" href={CONTACTS.addressLink}>9354 Bay Colony Dr Ste 1S Des Plaines, IL 60016</a>
 						</Col>
 						<Col lg={10} md={10} sm={12} xs={12}>
 							<Empty />
